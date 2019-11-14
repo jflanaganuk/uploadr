@@ -4,14 +4,14 @@ import classes from './App.scss';
 
 const App: React.FC = () => {
   return (
-    <div className={classes.App}>
-      <header className={classes['App-header']}>
-        <img src={logo} className={classes['App-logo']} alt="logo" />
+    <div className={classes.app}>
+      <header className={classes.appHeader}>
+        <img src={logo} className={classes.appLogo} alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
-          className={classes['App-link']}
+          className={classes.appLink}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
