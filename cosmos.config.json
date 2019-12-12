@@ -1,0 +1,6 @@
+{
+  "watchDirs": ["src"],
+  "webpack": {
+    "configPath": "./config/webpack.config"
+  }
+}
